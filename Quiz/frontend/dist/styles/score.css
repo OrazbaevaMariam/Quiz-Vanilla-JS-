@@ -1,0 +1,53 @@
+.result {
+    text-align: center;
+}
+
+.result__container {
+    padding: 100px 0 31px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: column;
+}
+
+.result-title {
+    width: 588px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    color: #333333;
+    font-size: 54px;
+    /*text-align: -webkit-center;*/
+    display: inline-block;
+    padding-bottom: 60px;
+    /*align-items: center;*/
+    align-self: center;
+
+}
+
+.result-span {
+    color: #6933DC;
+}
+
+.result-questions {
+    position: absolute;
+    top: 185px;
+    z-index: -1;
+}
+
+.result-image {
+    margin-bottom: 80px;
+    background-image: url("/images/result-image.svg");
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 388px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 158px;
+    color: #FFFFFF;
+
+}
+
